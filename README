@@ -1,0 +1,56 @@
+## Django Overheads
+
+### Problem
+
+At church's Leaders, Pastors, and event organises think that the people on the tech desk can use any file,
+ or any style of data and present that at the drop of a hat in the heat of the moment in 30 seconds.
+Many people do not understand that with overheads / data / words / VPS, requires time and testing and that files have specific requirements,
+ and limitations.
+Ie.
+ * Most computers these days do not have disk drives, and so we are unable to play DVD's even if it is just a 2 minute promo video.
+ * Most projectors these days are in 16x9 and that when you display a powerpoint of photo it will look terrible if it is 4x3.
+ * If there is sound with the video, that will have to be tested through the sound desk, as every video can be different volumes,
+ or the compter may be muted.
+ * Not every compter can play the same files types, "avi" is difficult to play on MacOS, on the default player.
+ * Some presentation software are unable to control powerpoints depending on the host Operating system,
+ Pro Presentor on MacOS (due to Microsoft removing Powerpoint control API's, to allow external softwar to control powerpoints),
+ so with this you require to export the slides to images, then import them into ProPresentor. This takes time.
+ * Lots of people will arrive either right before the service starts or during the service with a USB or dvd asking to play it,
+  for the sermon, or right now, for that person talking NOW.
+
+### Solution
+
+Build a Web based system, that allows users to submit files (video, images, powerpoint files), that will then get converted to the correct specifications or return to the submitter, to fix.
+Limit the submission times, and allow a cleaner and less stressfull workflow.
+
+
+### License
+
+    Django Overheads Justin Fuhrmeister-Clarke, a Church Overhead Presentor Submission System.
+    Copyright (C) 2018  Justin Fuhrmeiser-Clarke <justin@fuhrmeister-clarke.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+### Installing / Getting Started
+
+TODO
+
+### TODO
+
+ * Upload Files (detect file type, video, document, image)
+ * Convert documents to images
+ * Convert videos to required resolution, bitrate and filetype.
+ * Desktop sync client,
+ * Limit submission dates
+
